@@ -1,7 +1,15 @@
 const $tarjeta = document.querySelector('.tarjeta'),
   $respuesta = document.querySelector('.respuesta'),
   elemt = document.querySelector('.js'),
+  contbtn=document.querySelector(".conbtn"),
   boton = document.querySelector('.btnsumit');
+
+  const numbers=Array(5).fill(1).map((_, i) => i+1),
+  bot=numbers
+   .map((el)=>{
+    return `<button class="btn ${el}">${el}</button>`
+  }).join(" ");
+  contbtn.innerHTML=bot;
 
 const targeta = () => {
   $tarjeta.addEventListener('click', ({ target }) => {
