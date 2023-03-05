@@ -1,0 +1,126 @@
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.tarjeta.none{
+    display: none;
+}
+
+.js{
+    background-color:hsl(215, 15%, 24%);
+    width: 200px;
+    height: 30px;
+    color:hsl(25, 97%, 53%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 20px;
+}
+.btn.orange{
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+
+}
+
+.tarjeta{
+    background-color:hsl(213, 19%, 18%) ;
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+h1{
+    color: hsl(0, 0%, 100%) ;
+}
+.contsumit{
+    display: flex;
+justify-content: center;
+align-items:center;
+
+}
+
+.conbtn{
+display: flex;
+justify-content: center;
+align-items:center;
+gap: 25px;
+ margin-bottom: 25px;
+
+
+}
+.p{
+    font-size: 18px;
+    color:hsl(217, 12%, 63%) ;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.btn{
+    background-color:hsl(215, 15%, 24%) ;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(217, 12%, 63%);
+    border-style: none;
+    font-size: 15px;
+}
+
+.btnsumit{
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-style: none ;
+    border-radius:20px ;
+
+}
+.star{
+    background-color: hsl(215, 15%, 24%);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.respuesta{
+    background-color:hsl(213, 19%, 18%) ;
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    text-align: center;
+    display:none;
+}
+.respuesta.flex{
+    display: flex;
+}
+
+.img2{
+    width:150px;
+
+    
+}
+.img2cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
